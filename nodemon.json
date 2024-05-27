@@ -1,0 +1,8 @@
+{
+  "watch": ["src"],
+  "ignore": ["src/**/*.test.ts"],
+  "ext": "ts,mjs,js,json,graphql",
+  "exec": "etsc --config=etsc.config.js && node --env-file=.env ./dist/main.js",
+  "legacyWatch": true,
+  "verbose": true
+}
